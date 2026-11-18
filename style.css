@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  display: none;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  background-color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.5);
+  padding: 20vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+.hero-section {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.hero-card1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px;
+  border-radius: 10px 0 0 10px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-card1 img {
+  margin-bottom: 30px;
+  width: 80px;
+  height: 50px;
+}
+
+.hero-card1 h2 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.hero-card1 a {
+  display: block;
+  width: fit-content;
+  margin-top: 100px;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: hsl(31, 77%, 52%);
+}
+
+.hero-card1 a:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.hero-card2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 50px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-card2 img {
+  margin-bottom: 30px;
+  width: 80px;
+  height: 50px;
+}
+
+.hero-card2 h2 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.hero-card2 a {
+  display: block;
+  width: fit-content;
+  margin-top: 100px;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: hsl(184, 100%, 22%);
+}
+
+.hero-card2 a:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.hero-card3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 50px;
+  border-radius: 0 10px 10px 0;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-card3 img {
+  margin-bottom: 30px;
+  width: 80px;
+  height: 50px;
+}
+
+.hero-card3 h2 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.hero-card3 a {
+  display: block;
+  width: fit-content;
+  margin-top: 100px;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: hsl(179, 100%, 13%);
+}
+
+.hero-card3 a:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}

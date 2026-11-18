@@ -1,0 +1,52 @@
+@media (max-width: 1260px) {
+  .hero-card1 {
+    border-radius: 10px 0 0 0;
+  }
+
+  .hero-card2 {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .hero-card3 {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media (max-width: 959px) {
+  .hero-card1 {
+    border-radius: 10px 10px 0 0;
+  }
+  .hero-card2 {
+    border-radius: 0;
+  }
+
+  .hero-card3 {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 15vh;
+  }
+}
+
+@media (max-width: 475px) {
+  body {
+    padding: 5vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-card1 a {
+    margin-top: 30px;
+  }
+
+  .hero-card2 a {
+    margin-top: 30px;
+  }
+
+  .hero-card3 a {
+    margin-top: 30px;
+  }
+}
